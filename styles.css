@@ -1,0 +1,133 @@
+body {
+    background-color: #122620;
+    color :#F4EBD0;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #B68D40;
+    transition: background-color 5s;
+}
+
+#head:hover {
+    background-color: #F4EBD0;
+}
+
+h1 {
+    border-bottom: 1px;
+    margin-bottom: 1px;
+    text-align: left;
+    color: #122620;
+    font-size: 45px;
+    padding-left: 15px;
+}
+
+.promo {
+    background:  left top no-repeat url("limited.jpg");
+    background-size: 1500px 750px;
+    padding-bottom: 20px;
+    border-radius: 12px;   
+}
+
+.promoimg {
+    border-radius: 12px;
+}
+
+h1 ~p {
+    color: #122620;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 50px;
+    margin: 1px;
+}
+
+.div3column {
+    color: #D6AD60;
+    text-align: justify;
+    background-color: #122620;
+    border: #B68D40 1px solid;
+    border-radius: 12px;
+    padding: 21px;
+    transition: background-color 2s, color 2s ;
+}
+
+.div3column:hover {
+    background-color: #B68D40;
+    color: #122620;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 ~img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navButton {
+    background-color: #122620;
+    border: none;
+    border-radius: 7px;
+    width: 133px;
+    height: 45px;
+    font-size: 24px;
+    font-family: 'Georgia', 'Times New Roman', 'Times', 'serif' ;
+    font-weight: 540;
+    color: #F4EBD0;
+    transition: background-color 750ms;
+}
+
+.navButton:hover {
+    background-color: #D6AD60;
+    color: #122620;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 21px;
+}
+
+section, footer {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    margin: 2%;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
